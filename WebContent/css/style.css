@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+/* html,body {
+    background: url(../image/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; For WebKit
+    -moz-background-size: cover;    Mozilla
+    -o-background-size: cover;      Opera
+    background-size: cover;         Generic
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/bg.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/bg.jpg', sizingMethod='scale')";
+} */
+
+html,body {
+    background: url(../image/grass.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/grass.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/grass.png', sizingMethod='scale')";
+}
